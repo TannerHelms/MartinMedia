@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <link rel="stylesheet" href="../css/site.css">
+      <link rel="stylesheet" href="../css/roots.css">
+      <script src="https://kit.fontawesome.com/1ad76a296a.js" crossorigin="anonymous"></script>
+      <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+      <script defer src="../js/index.js"></script>
+   </head>
+   <body>
+      <div id="app">
+         <!-- Nav Bar -->
+         <div class="navbar">
+            <div class="nav-flex">
+               <img src="../images/logo.png" alt="martin-media-logo">
+               <div class="nav-content mobile-hidden">
+                  <a href="../index.html">HOME</a>
+                  <a href="roots.html">OUR ROOTS</a>
+                  <div class="dropdown">
+                     <a class="dropdown" href="">SERVICES<i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+                        <div class="dropdown-content">
+                           <div class="dropdown-container">
+                              <a href="weddings.html">Weddings</a>
+                              <a href="#">Commercial</a>
+                              <a href="#">Link 3</a>
+                           </div>
+                        </div>
+                  </div>
+                  <a href="">BLOG</a>
+                  <a href="">WORK WITH US</a>
+               </div>
+               <div class="mobile-show">
+                  <i class="fa fa-bars" aria-hidden="true" style="font-size: 1.5rem;" @click="showNav"></i>
+               </div>
+            </div>
+            <div class="nav-mobile">
+               <a href="../index.html">HOME</a>
+               <a href="roots.html">OUR ROOTS</a>
+               <a href="">SERVICES<i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+               <a href="">BLOG</a>
+               <a href="">WORK WITH US</a>
+            </div>
+         </div>
+         
+         <!--Our Roots-->
+         <div class="roots">
+            <div class="roots-container">
+                <div>
+                    <img src="../images/home-pic-1.png" alt="" style="width: 100%;">
+                </div>
+                <div>
+                    <h1>Our <span class="color-third">Roots</span></h1>
+                    <p>We are an Alaska born and raised company! Based out of Soldotna, Alaska, we spend our days discovering the breathtaking beauty of our incredible state and love to use photography and video to capture stunning scenery and special moments.<br><br>Whether it’s for a wedding, drone shots for your real estate and business, or documenting your hunt for Bigfoot (Yep! Been there, done that!), our team has the expertise and experience to bring your story to life. Our focus is always to create a finished product that will make you feel like you’re right back in the moment. (Or if you weren’t there, feel like you were!)</p>
+                </div>
+            </div>
+         </div>
+         <!-- Drone Section-->
+         <div class="drone">
+            <div class="drone-container">
+                <div>
+                    <p>We have years of experience flying drones and all the needed licenses and certifications. One of our unique specialties is adding stunning aerial photos and videos to each of our projects. We use drones to capture stunning footage for Weddings, Realtors, Lodges, Fishing Guides, and more!<br><br>If you’re looking for the best Videography team in Alaska, give us a call today!</p>
+                </div>
+                <div>
+                    <h1>If you’re looking
+                        for a <br>dronography
+                        expert… <br><span style="font-weight: bold;">You found us!</span></h1>
+                        <button class="btn">WORK WITH US</button>
+                </div>
+            </div>
+         </div>
+         <!-- Footer Section-->
+         <div class="footer">
+            <div class="footer-container">
+               <div>
+                  <img src="../images/logo.png" alt="">
+                  <p>
+                     © Copyright 2023. Martin Media, LLC.
+                     All Rights Reserved.
+                  </p>
+               </div>
+               <div>
+                  <p>Call us for a
+                     free consultation
+                  </p>
+                  <a href="tel:9073980797" class="pointer" style="color: #FD6923; text-decoration: none;"><p>907.398.0797<p></p></a>
+               </div>
+               <div>
+                  <p>Email us for free quote</p>
+                  <a href="mailto:Josiah@MartinMedia.us" class="pointer" style="color: #FD6923; text-decoration: none;"><p class="pointer" style="color: #FD6923;">Josiah@MartinMedia.us</p></a>
+               </div>
+               <div>
+                  <p>Looking to order photos from your event?</p>
+                  <p class="pointer" style="color: #FD6923;">Click Here!</p>
+               </div>
+            </div>
+         </div>
+   </div>
+   </body>
+</html>

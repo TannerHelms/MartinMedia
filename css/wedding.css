@@ -1,0 +1,95 @@
+.wedding {
+    background-image: linear-gradient(360deg,rgba(0, 0, 0, 0.65) 0%, rgba(10, 10, 10, 0.15) 100%), url("../images/wedding-hero.jpg");
+    background-size: cover;
+    background-position: 0 40%;
+}
+
+.wedding-container {
+    margin-left: 5vw;   
+    padding: 140px 60px 0 60px;
+    max-width: 2000px;
+    align-items: center;
+    max-width: 100ch;
+}
+
+.wedding-container div {
+  
+    padding: 30px;
+}
+
+.wedding-container p {
+    font-weight:580;
+}
+
+.videos {
+    background-image: linear-gradient(360deg,rgba(0, 0, 0, 0.65) 0%, rgba(10, 10, 10, 0.15) 100%), url("../images/wedding-2.jpg");
+    background-size: cover;
+}
+
+.video-container {
+    padding: 60px 60px 0 60px;
+    max-width: 2000px;
+    text-align: center;
+    margin: auto;
+}
+
+img:hover {
+    background: rgb(0, 0, 0);
+    opacity: .8;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 60px;
+}
+.gallery div {
+    width: 33.33%;
+    padding: 0 50px;
+}
+.gallery img {
+    display: block;
+    width: 100%;
+}
+.btn {
+    margin-bottom: 60px;
+}
+@media only screen and (max-width: 1400px) {
+    .wedding {
+        background-position: 50% 0%;
+    }
+    
+    .wedding-container {
+        margin-left: 0;
+        padding-left: 20px;
+    }
+    .video-container {
+        padding: 60px 0;
+    }
+    .gallery {
+        flex-direction: column;
+    }
+    .gallery div {
+        width: 100%;
+        padding: 0;
+    }
+    iframe {
+        width: 80vw;
+        height: 45vw;
+        padding: 0;
+        margin: auto;
+    }
+    .gallery div:nth-child(3) {
+        margin-top: 8rem;
+    }
+    .video-container img {
+        width: 80vw;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .wedding{
+        background-position: 65% 0;
+    }
+}

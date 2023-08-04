@@ -1,0 +1,80 @@
+.roots {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(360deg,rgba(0, 0, 0, 0.8) 0%, rgba(10, 10, 10, 0.3) 100%), url("../images/roots-hero.jpg");
+}
+.roots-container {
+    margin: auto;
+    display: flex;
+    padding: 140px 60px 0 60px;
+    max-width: 1500px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.roots-container div {
+    width: 50%;
+}
+.roots-container div:first-child {
+    margin-right: 100px;
+}
+
+.drone {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom 0px;
+    background-image: linear-gradient(360deg,rgba(0, 0, 0, 0) 0%, rgba(10, 10, 10, 0.3) 100%), url("../images/our-roots-bg-1.jpg");
+}
+
+.drone-container {
+    margin: auto;
+    display: flex;
+    padding: 150px 0px 150px 60px;
+    max-width: 2000px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.drone-container div {
+    width: 40%;
+    margin: 20px 0;
+}
+
+.drone-container div:first-child {
+    margin-right: 150px;
+}
+
+@media only screen and (max-width: 1400px) {
+    .roots-container {
+        flex-direction: column;
+        padding: 140px 40px 60px 40px;
+    }
+    .roots-container img {
+        margin: auto;
+    }
+    .roots-container div:first-child{
+        margin: auto;
+        min-width: 400px;
+    }
+    .roots-container div:last-child {
+        border-radius: 15px;
+        margin: 20px 0px !important;
+        width: 100%;
+        padding: 20px 60px;
+    }
+    .drone-container {
+        flex-direction: column;
+        padding: 100px 0px;
+    }
+    .drone-container div {
+        width: 80%;
+    }
+    .drone-container div:first-child {
+        margin-right: 0px;
+    }
+    .drone-container div:last-child {
+        width: fit-content;
+        margin: auto;
+        text-align: center;
+    }
+}

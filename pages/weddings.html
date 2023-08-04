@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <link rel="stylesheet" href="../css/site.css">
+      <link rel="stylesheet" href="../css/wedding.css">
+      <script src="https://kit.fontawesome.com/1ad76a296a.js" crossorigin="anonymous"></script>
+      <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+      <script defer src="../js/index.js"></script>
+   </head>
+   <body>
+      <div id="app">
+         <!-- Nav Bar -->
+         <div class="navbar">
+            <div class="nav-flex">
+               <img src="../images/logo.png" alt="martin-media-logo">
+               <div class="nav-content mobile-hidden">
+                  <a href="../index.html">HOME</a>
+                  <a href="roots.html">OUR ROOTS</a>
+                  <div class="dropdown">
+                     <a class="dropdown" href="">SERVICES<i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+                        <div class="dropdown-content">
+                           <div class="dropdown-container">
+                              <a href="weddings.html">Weddings</a>
+                              <a href="#">Commercial</a>
+                              <a href="#">Link 3</a>
+                           </div>
+                        </div>
+                  </div>
+                  <a href="">BLOG</a>
+                  <a href="">WORK WITH US</a>
+               </div>
+               <div class="mobile-show">
+                  <i class="fa fa-bars" aria-hidden="true" style="font-size: 1.5rem;" @click="showNav"></i>
+               </div>
+            </div>
+            <div class="nav-mobile">
+               <a href="../index.html">HOME</a>
+               <a href="roots.html">OUR ROOTS</a>
+               <a href="">SERVICES<i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+               <a href="">BLOG</a>
+               <a href="">WORK WITH US</a>
+            </div>
+         </div>
+         
+         <!-- Wedding Contianer -->
+         <div class="wedding">
+            <div class="wedding-container">
+                <div>
+                    <h1>We share your<br><span style="font-weight: bold;">Special Day</span></h1>
+                    <p>Would you love a video that you can watch years from now and remember your wedding day like it was yesterday?
+                        <br><br>
+                        There’s something about film that has the ability to take you back to that moment in time and relive all of the emotions from your wedding day, and the Kenai Peninsula offers so many beautiful backdrops for your special day!
+                        <br><br>
+                        With our videos we do everything we can to showcase the bride and groom, include family and friends, capture stunning aerial video and even include pre-wedding prep and video of the reception.
+                    </p>
+                </div>
+            </div>
+         </div>
+        
+         <!-- wedding videos -->
+         <div class="videos">
+            <div class="video-container">
+                <h1 style="text-align: center;">See some of our <span style="font-weight: bold;">wedding videos</span></h1>
+                <br><br>
+                <div class="gallery">
+                    <div>
+                        <iframe width="100%" height="70%" src="https://www.youtube.com/embed/pv4TjrwQzXY" title="YouTube video player" frameborder="0" ></iframe>
+                    </div>
+                    <div style="transform: translateY(5%);">
+                        <p style="font-weight: 500;">CLICK GLALLERY BELOW TO VIEW PHOTOS</p>
+                        <br>
+                        <div style="background: black; width: fit-content !important; padding: 0 !important; margin: auto; cursor: pointer;">
+                            <img src="../images/Wedding-Photo-Gallery-scaled.jpg" alt="">
+                        </div>
+                    </div>
+                    <div>
+                        <iframe width="100%" height="70%" src="https://www.youtube.com/embed/KbmLppKVxY0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <br>
+                <p style="font-weight: bold;">We would be honered to tell your love story!</p>
+                <p style="font-weight: bold; margin: 60px 0;">FILM PACKAGES START AT $3,350</p>
+                <button class="btn">WORK WITH US</button>
+            </div>
+         </div>
+         <!-- Footer Section-->
+         <div class="footer">
+            <div class="footer-container">
+               <div>
+                  <img src="../images/logo.png" alt="">
+                  <p>
+                     © Copyright 2023. Martin Media, LLC.
+                     All Rights Reserved.
+                  </p>
+               </div>
+               <div>
+                  <p>Call us for a
+                     free consultation
+                  </p>
+                  <a href="tel:9073980797" class="pointer" style="color: #FD6923; text-decoration: none;"><p>907.398.0797<p></p></a>
+               </div>
+               <div>
+                  <p>Email us for free quote</p>
+                  <a href="mailto:Josiah@MartinMedia.us" class="pointer" style="color: #FD6923; text-decoration: none;"><p class="pointer" style="color: #FD6923;">Josiah@MartinMedia.us</p></a>
+               </div>
+               <div>
+                  <p>Looking to order photos from your event?</p>
+                  <p class="pointer" style="color: #FD6923;">Click Here!</p>
+               </div>
+            </div>
+         </div>
+   </div>
+   </body>
+</html>

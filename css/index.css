@@ -1,60 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
 
-:root {
-    --font-h :'Libre Baskerville', serif;
-    --font-p : 'Spectral', serif;
-    --font-a : 'Aldrich', sans-serif;
-    --color-third : #2a80a6;
-}
-
-.color-third {
-    color: var(--color-third);
-}
-
-* {
-    box-sizing: border-box;
-}
-
-h1 {
-    font-family: var(--font-h);
-    font-weight: 100;
-    line-height: 1em;
-    padding-bottom: 10px;
-    letter-spacing: 1px;
-    line-height: 1.3;
-    font-size: 2.5rem;
-}
-p {
-    font-family: var(--font-p);
-    font-size: 1.4rem; 
-    line-height: 2rem;
-    letter-spacing: 1px;
-}
-a {
-    font-family: var(--font-a);
-    letter-spacing: 1px;
-}
-.w-50 {
-    width: 50%;
-}
-.w-25 {
-    width: 25%;
-}
-
-.w-33 {
-    width: 33%;
-}
-
-
-body {
-    margin: 0;
-    background-color: lightblue;
-    position: relative;
-    color: white;
-}
 
 .container {
     margin: auto;
@@ -64,13 +8,11 @@ body {
 }
 
 .started {
-    background-image: url(images/get-started.jpg);
+    background-image: url(../images/get-started.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     padding: 40px 0;
 }
-
-
 
 
 .center {
@@ -86,70 +28,7 @@ body {
 .p-2 {
     padding: 20px;
 }
-.btn {
-    color: white;
-    background-color: #fd6923;
-    padding: 20px;
-    border: none;
-    font-size: 1.3rem;
-    font-weight: 600;
-    letter-spacing: 1px;
-    cursor: pointer;
-    transform: all 1s;
-}
 
-.btn:hover {
-    background-color: #fc5000;
-}
-
-.mobile-show {
-    display: none;
-}
-.navbar {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 99;
-}
-
-.nav-colored {
-    background-color: black;
-    opacity: .85;
-    transition: all 1s ease;
-}
-.nav-transparent {
-    background-color: null;
-    opacity: null;
-}
-
-.nav-flex {
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 30px;
-    width: 80vw;
-    max-width: 2000px;
-}
-.navbar a {
-    text-decoration: none;
-    color: white;
-    padding: 0 15px;
-    transition: all 1s ease;
-}
-
-.navbar a:hover {
-    color: #2ea3f2;
-}
-.navbar i {
-    padding: 0px 5px;
-    color: white;
-    cursor: pointer;
-}
-
-.navbar img {
-    cursor: pointer;
-}
 
 .hero {
     position: static;
@@ -169,7 +48,7 @@ body {
 }
 
 .profile {
-    background-image: url(images/index-profile.jpg);
+    background-image: url("../images/index-profile.jpg");
     background-size: cover;
 }
 
@@ -194,7 +73,7 @@ body {
 .storytellers {
     background-size: initial;
     background-position: right 0px center;
-    background-image: url(images/drone-bg.jpg)!important;
+    background-image: url("../images/drone-bg.jpg")!important;
     padding: 50px 0;
 }
 
@@ -212,7 +91,7 @@ body {
 }
 
 .services {
-    background-image: url(images/services-bg.jpg);
+    background-image: url("../images/services-bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -306,20 +185,7 @@ body {
     display: block;
     margin: auto;
 }
-.footer {
-    background-color: #175C76;
-}
-.footer-container {
-    max-width: 2200px;
-    margin: auto;
-    padding: 80px 200px;
-    display: flex;   
-}
-.footer-container div {
-    width: 25%;
-    padding: 0px 20px;
-    text-align: center;
-}
+
 @media only screen and (max-width: 1400px) {
     .mobile-hidden {
         display: none;
